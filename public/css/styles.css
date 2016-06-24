@@ -1,0 +1,27 @@
+/* body */
+body {
+  background-image: url("spa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#pageOnearrowdown, #pageTwoarrowdown, #pageThreearrowdown, #pageFourarrowdown, #pageFivearrowdown {
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+  bottom: 30px;
+}
+
+#arrowdownImage{
+  height: 50px;
+  padding-left: 160px;
+}
+
+#arrowupImage {
+  height: 70px;
+  padding-left: 160px;
+
+}
+
+
+/* Responsive */
