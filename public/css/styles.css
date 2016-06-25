@@ -13,11 +13,13 @@ body {
 }
 
 #arrowdownImage{
+  cursor: pointer;
   height: 50px;
   padding-left: 160px;
 }
 
 #arrowupImage {
+  cursor: pointer;
   height: 70px;
   padding-left: 160px;
 
@@ -25,3 +27,27 @@ body {
 
 
 /* Responsive */
+/* iPhone 4 & 4S */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* iPhone 5 & 5S */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* iPhone 6 & 6S */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* iPhone 6plus */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* iPad */
+@media only screen and (min-device-width: 736px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  
+}
