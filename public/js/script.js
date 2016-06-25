@@ -6,8 +6,14 @@ $(function(){
     anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fivePage']
   });
 
+  function play(){
+    const audio = document.getElementById('audio')
+    audio.play()
+  }
 
-
+  $('#pageOnearrowdown').on('click', function(){
+    play()
+  })
 
 
 
