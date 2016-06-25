@@ -41,14 +41,14 @@ audio {
 
   #arrowdownImage{
     cursor: pointer;
-    height: 30px;
-    padding-left: 140px;
+    height: 55px;
+    padding-left: 460px;
   }
 
   #arrowupImage {
     cursor: pointer;
-    height: 40px;
-    padding-left: 140px;
+    height: 70px;
+    padding-left: 460px;
   }
 }
 
@@ -63,14 +63,14 @@ audio {
 
   #arrowdownImage{
     cursor: pointer;
-    height: 30px;
-    padding-left: 140px;
+    height: 55px;
+    padding-left: 460px;
   }
 
   #arrowupImage {
     cursor: pointer;
-    height: 40px;
-    padding-left: 140px;
+    height: 70px;
+    padding-left: 460px;
   }
 }
 
@@ -86,14 +86,14 @@ audio {
 
   #arrowdownImage{
     cursor: pointer;
-    height: 40px;
-    padding-left: 160px;
+    height: 55px;
+    padding-left: 460px;
   }
 
   #arrowupImage {
     cursor: pointer;
-    height: 60px;
-    padding-left: 160px;
+    height: 70px;
+    padding-left: 460px;
   }
 
 }
@@ -110,14 +110,14 @@ audio {
 
   #arrowdownImage{
     cursor: pointer;
-    height: 45px;
-    padding-left: 175px;
+    height: 55px;
+    padding-left: 460px;
   }
 
   #arrowupImage {
     cursor: pointer;
-    height: 60px;
-    padding-left: 175px;
+    height: 70px;
+    padding-left: 460px;
   }
 
 }
@@ -135,13 +135,13 @@ audio {
   #arrowdownImage{
     cursor: pointer;
     height: 50px;
-    padding-left: 370px;
+    padding-left: 450px;
   }
 
   #arrowupImage {
     cursor: pointer;
     height: 70px;
-    padding-left: 360px;
+    padding-left: 450px;
   }
 
 }
