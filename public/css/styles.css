@@ -5,6 +5,10 @@ body {
   background-size: cover;
 }
 
+audio {
+  display: none;
+}
+
 #pageOnearrowdown, #pageTwoarrowdown, #pageThreearrowdown, #pageFourarrowdown, #pageFivearrowdown {
   text-align: center;
   z-index: 2;
@@ -15,13 +19,13 @@ body {
 #arrowdownImage{
   cursor: pointer;
   height: 50px;
-  padding-left: 160px;
+  padding-left: 560px;
 }
 
 #arrowupImage {
   cursor: pointer;
   height: 70px;
-  padding-left: 160px;
+  padding-left: 560px;
 }
 
 
