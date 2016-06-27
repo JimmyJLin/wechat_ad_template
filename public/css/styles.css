@@ -9,6 +9,10 @@ audio {
   display: none;
 }
 
+.HYPE_scene{
+  background-color: transparent !important;
+}
+
 #pageFirstarrowdown, #pageTwoarrowdown, #pageThreearrowdown, #pageFourarrowdown, #pageLastarrowdown {
   text-align: center;
   z-index: 2;
