@@ -9,7 +9,7 @@ audio {
   display: none;
 }
 
-#pageOnearrowdown, #pageTwoarrowdown, #pageThreearrowdown, #pageFourarrowdown, #pageFivearrowdown {
+#pageFirstarrowdown, #pageTwoarrowdown, #pageThreearrowdown, #pageFourarrowdown, #pageLastarrowdown {
   text-align: center;
   z-index: 2;
   position: absolute;
