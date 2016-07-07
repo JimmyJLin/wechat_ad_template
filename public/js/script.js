@@ -12,16 +12,21 @@ $(function(){
     audio.play()
   }
 
+  function pause(){
+    const audio = document.getElementById('audio')
+    audio.pause()
+  }
+
   $('#music').on('click', function(){
     // console.log("hello")
     // play()
     // $(this).css("opacity", 0.5);
     if($('#music').hasClass("play")){
-      this.play();
+      play();
       $(this).removeClass("play").addClass("stop");
       $(this).css("opacity", 0.5);
     } else if($('#music').hasClass("stop")){
-      this.pause();
+      pause();
       $(this).removeClass("stop").addClass("play");
       $(this).css("opacity", 1);
 
