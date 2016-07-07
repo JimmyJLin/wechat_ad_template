@@ -11,7 +11,8 @@ $(function(){
     const audio = document.getElementById('audio')
     audio.play()
   }
-  $('#pageOnearrowdown').on('click', function(){
+
+  $('#pageFirstarrowdown').on('click', function(){
     play()
   })
 
