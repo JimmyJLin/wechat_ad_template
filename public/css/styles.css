@@ -35,7 +35,7 @@ audio {
 /* First Page */
 
 #companyLogo{
-  width: 1000px;
+  width: 850px;
   height: auto;
   display: block;
   margin-left: auto;
@@ -96,7 +96,18 @@ audio {
 /* 4th Page */
 
 /* Last Page */
+#lastSectionTitle, #lastSectionAddress, #lastSectionContact{
+  text-align: center;
+}
 
+#lastSectionContent, #lastSectionTitle{
+  font-size: 4rem;
+  padding: 0 50px 0 50px;
+}
+
+#linkColor{
+  color: black;
+}
 
 /* Responsive */
 /* iPhone 4 & 4S */
@@ -179,14 +190,14 @@ audio {
 
   #arrowdownImage{
     cursor: pointer;
-    height: 60px;
-    padding-left: 460px;
+    height: 100px;
+    padding-left: 450px;
   }
 
   #arrowupImage {
     cursor: pointer;
-    height: 80px;
-    padding-left: 460px;
+    height: 140px;
+    padding-left: 450px;
   }
 
 }
