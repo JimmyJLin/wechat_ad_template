@@ -38,7 +38,7 @@ $(function(){
     $('#fadeInRightThirdPageRowTwo').addClass("animated fadeInRight infinite");
 
     // Fourth Page
-    $('#pageTitleFourthPage').addClass("animated fadeInDown infinite");
+    $('#fadeInDownFourthPage').addClass("animated fadeInDown infinite");
     $('#zoomInFourthPage').addClass("animated zoomIn infinite");
     $('#fadeInLeftFourthPageRowOne').addClass("animated fadeInLeft infinite");
     $('#fadeInRightFourthPageRowOne').addClass("animated fadeInRight infinite");
