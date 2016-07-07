@@ -50,7 +50,7 @@ audio {
   margin-right: auto;
 }
 
-#fadeInDown, #lightSpeedIn, #fadeInUp, #pageTitle, #fadeInLeft, #fadeInRight, #zoomIn{
+#fadeInDownFirstPage, #lightSpeedInFirstPage, #fadeInUpFirstPage, #zoomInSecondPage, #fadeInLeftSecondPage, #fadeInRightSecondPage, #fadeInDownSecondPageTitle, #pageTitleThirdPage, #zoomInThirdPage, #fadeInLeftThirdPageRowOne, #fadeInRightThirdPageRowOne, #fadeInLeftThirdPageRowTwo, #fadeInRightThirdPageRowTwo, #fadeInDownFourthPage, #fadeInLeftFourthPageRowOne, #fadeInRightFourthPageRowOne, #fadeInLeftFourthPageRowTwo, #fadeInRightFourthPageRowTwo,  #fadeInLeftFourthPageRowThree, #fadeInRightFourthPageRowThree, #fadeInDownLastPage{
   animation-duration: 3s;
   -webkit-animation-duration: 3s;
 }
