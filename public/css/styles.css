@@ -50,7 +50,7 @@ audio {
   margin-right: auto;
 }
 
-#fadeInDown, #rubberBand, #fadeInUp, #pageTitle, #fadeInLeft, #fadeInRight, #zoomIn{
+#fadeInDown, #lightSpeedIn, #fadeInUp, #pageTitle, #fadeInLeft, #fadeInRight, #zoomIn{
   animation-duration: 3s;
   -webkit-animation-duration: 3s;
 }

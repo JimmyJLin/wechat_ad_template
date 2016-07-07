@@ -16,6 +16,14 @@ $(function(){
   })
 
   // animate.css
+  $(window).load(function(){
+    $('#fadeInDown').addClass("animated fadeInDown infinite")
+    $('#fadeInUp').addClass("animated fadeInUp infinite")
+    $('#lightSpeedIn').addClass("animated lightSpeedIn infinite")
+
+    $('#zoomIn').addClass("animated zoomIn infinite");
+
+  });
 
   // $('#zoomIn').on("pageload", function(){
   //   console.log("loading zoomin")
