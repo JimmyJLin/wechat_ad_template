@@ -156,6 +156,11 @@ audio {
   color: #666;
 }
 
+#boldfont{
+  font-size: 6rem !important;
+  font-weight: bold;
+  padding: 0 0 0 0;
+}
 
 /* Last Page */
 #lastSectionTitle, #lastSectionAddress, #lastSectionContact{
