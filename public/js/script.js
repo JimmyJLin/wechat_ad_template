@@ -18,35 +18,42 @@ $(function(){
 
   // animate.css
   $(window).load(function(){
+    const fadeInDown = "animated fadeInDown infinite";
+    const fadeInUp = "animated fadeInUp infinite";
+    const fadeInLeft = "animated fadeInLeft infinite";
+    const fadeInRight = "animated fadeInRight infinite";
+    const zoomIn = "animated zoomIn infinite";
+    const lightSpeedIn = "animated lightSpeedIn infinite";
 
     // First Page
-    $('#fadeInDownFirstPage').addClass("animated fadeInDown infinite")
-    $('#fadeInUpFirstPage').addClass("animated fadeInUp infinite")
-    $('#lightSpeedInFirstPage').addClass("animated lightSpeedIn infinite")
+    $('#fadeInDownFirstPage').addClass(fadeInDown)
+    $('#fadeInUpFirstPage').addClass(fadeInUp)
+    $('#lightSpeedInFirstPage').addClass(lightSpeedIn)
 
     // Second Page
-    $('#fadeInDownSecondPageTitle').addClass("animated fadeInDown infinite");
-    $('#zoomInSecondPage').addClass("animated zoomIn infinite");
-    $('#fadeInLeftSecondPage').addClass("animated fadeInLeft infinite");
-    $('#fadeInRightSecondPage').addClass("animated fadeInRight infinite");
+    $('#fadeInDownSecondPageTitle').addClass(fadeInDown);
+    $('#zoomInSecondPage').addClass(zoomIn);
+    $('#fadeInLeftSecondPage').addClass(fadeInLeft);
+    $('#fadeInRightSecondPage').addClass(fadeInRight);
 
     // Third Page
-    $('#pageTitleThirdPage').addClass("animated fadeInDown infinite");
-    $('#zoomInThirdPage').addClass("animated zoomIn infinite");
-    $('#fadeInLeftThirdPageRowOne').addClass("animated fadeInLeft infinite");
-    $('#fadeInRightThirdPageRowOne').addClass("animated fadeInRight infinite");
-    $('#fadeInLeftThirdPageRowTwo').addClass("animated fadeInLeft infinite");
-    $('#fadeInRightThirdPageRowTwo').addClass("animated fadeInRight infinite");
+    $('#pageTitleThirdPage').addClass(fadeInDown);
+    $('#zoomInThirdPage').addClass(zoomIn);
+    $('#fadeInLeftThirdPageRowOne').addClass(fadeInLeft);
+    $('#fadeInRightThirdPageRowOne').addClass(fadeInRight);
+    $('#fadeInLeftThirdPageRowTwo').addClass(fadeInLeft);
+    $('#fadeInRightThirdPageRowTwo').addClass(fadeInRight);
 
     // Fourth Page
-    $('#fadeInDownFourthPage').addClass("animated fadeInDown infinite");
-    $('#zoomInFourthPage').addClass("animated zoomIn infinite");
-    $('#fadeInLeftFourthPageRowOne').addClass("animated fadeInLeft infinite");
-    $('#fadeInRightFourthPageRowOne').addClass("animated fadeInRight infinite");
-    $('#fadeInLeftFourthPageRowTwo').addClass("animated fadeInLeft infinite");
-    $('#fadeInRightFourthPageRowTwo').addClass("animated fadeInRight infinite");
-    $('#fadeInLeftFourthPageRowThree').addClass("animated fadeInLeft infinite");
-    $('#fadeInRightFourthPageRowThree').addClass("animated fadeInRight infinite");
+    $('#fadeInDownFourthPage').addClass(fadeInDown);
+    $('#zoomInFourthPage').addClass(zoomIn);
+    $('#fadeInLeftFourthPageRowOne').addClass(fadeInLeft);
+    $('#fadeInRightFourthPageRowOne').addClass(fadeInRight);
+    $('#fadeInLeftFourthPageRowTwo').addClass(fadeInLeft);
+    $('#fadeInRightFourthPageRowTwo').addClass(fadeInRight);
+    $('#fadeInLeftFourthPageRowThree').addClass(fadeInLeft);
+    $('#fadeInRightFourthPageRowThree').addClass(fadeInRight);
+    
     // Last Page
 
   });
