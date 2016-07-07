@@ -74,12 +74,11 @@ audio {
   font-family: sans-serif;
   top: 120px;
   color: #FF9800;
-  padding-bottom: 55px;
 }
 
 #pageText p{
   font-size: 3.7rem;
-  padding: 0 45px 110px 45px;
+  padding: 25px 45px 110px 45px;
   text-align: center;
   font-family: sans-serif;
   color: #666;
