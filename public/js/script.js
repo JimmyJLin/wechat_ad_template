@@ -17,11 +17,11 @@ $(function(){
     // play()
     // $(this).css("opacity", 0.5);
     if($('#music').hasClass("play")){
-      play();
+      this.play();
       $(this).removeClass("play").addClass("stop");
       $(this).css("opacity", 0.5);
     } else if($('#music').hasClass("stop")){
-      pause();
+      this.pause();
       $(this).removeClass("stop").addClass("play");
       $(this).css("opacity", 1);
 
