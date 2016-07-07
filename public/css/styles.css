@@ -84,6 +84,7 @@ audio {
   font-family: sans-serif;
   top: 120px;
   color: #FF9800;
+  padding-bottom: 25px;
 }
 
 
@@ -117,6 +118,7 @@ audio {
   font-family: sans-serif;
   top: 75px;
   color: #FF9800;
+  padding-bottom: 25px;
 }
 
 #thirdPageText p{
@@ -128,6 +130,17 @@ audio {
 }
 
 /* 4th Page */
+#fourthPageTitle h2{
+  text-align: center;
+  padding-left: 29%;
+  position: absolute;
+  font-size: 7.7rem;
+  font-family: sans-serif;
+  top: 75px;
+  color: #FF9800;
+  padding-bottom: 25px;
+}
+
 #FourthPageText p{
   font-size: 6.5rem;
   padding: 35px 45px 80px 45px;
