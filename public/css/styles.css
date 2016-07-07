@@ -50,9 +50,9 @@ audio {
   margin-right: auto;
 }
 
-#fadeInDownFirstPage, #lightSpeedInFirstPage, #fadeInUpFirstPage, #zoomInSecondPage, #fadeInLeftSecondPage, #fadeInRightSecondPage, #fadeInDownSecondPageTitle, #pageTitleThirdPage, #zoomInThirdPage, #fadeInLeftThirdPageRowOne, #fadeInRightThirdPageRowOne, #fadeInLeftThirdPageRowTwo, #fadeInRightThirdPageRowTwo, #fadeInDownFourthPage, #fadeInLeftFourthPageRowOne, #fadeInRightFourthPageRowOne, #fadeInLeftFourthPageRowTwo, #fadeInRightFourthPageRowTwo,  #fadeInLeftFourthPageRowThree, #fadeInRightFourthPageRowThree, #fadeInDownLastPage{
-  animation-duration: 3s;
-  -webkit-animation-duration: 3s;
+#fadeInDownFirstPage, #lightSpeedInFirstPage, #fadeInUpFirstPage, #zoomInSecondPage, #fadeInLeftSecondPage, #fadeInRightSecondPage, #fadeInDownSecondPageTitle, #pageTitleThirdPage, #zoomInThirdPage, #fadeInLeftThirdPageRowOne, #fadeInRightThirdPageRowOne, #fadeInLeftThirdPageRowTwo, #fadeInRightThirdPageRowTwo, #fadeInLeftThirdPageRowThree, #fadeInRightThirdPageRowThree, #fadeInDownFourthPage, #fadeInLeftFourthPageRowOne, #fadeInRightFourthPageRowOne, #fadeInLeftFourthPageRowTwo, #fadeInRightFourthPageRowTwo,  #fadeInLeftFourthPageRowThree, #fadeInRightFourthPageRowThree, #zoomInFourthPage, #fadeInDownLastPage{
+  animation-duration: 5s;
+  -webkit-animation-duration: 5s;
 }
 
 #contentText{
@@ -76,9 +76,20 @@ audio {
   color: #FF9800;
 }
 
-#pageText p{
-  font-size: 3.7rem;
-  padding: 25px 45px 110px 45px;
+#secondPageTitle h2{
+  text-align: center;
+  padding-left: 17%;
+  position: absolute;
+  font-size: 7.7rem;
+  font-family: sans-serif;
+  top: 120px;
+  color: #FF9800;
+}
+
+
+#secondPageText p{
+  font-size: 4.5rem;
+  padding: 35px 45px 110px 45px;
   text-align: center;
   font-family: sans-serif;
   color: #666;
@@ -91,9 +102,40 @@ audio {
 #rightImage{
   padding-right: 50px;
 }
+
 /* 3rd Page */
+#beforeAndAfter{
+  text-align: center;
+  font-size: 2rem;
+}
+
+#thirdPageTitle h2{
+  text-align: center;
+  padding-left: 29%;
+  position: absolute;
+  font-size: 7.7rem;
+  font-family: sans-serif;
+  top: 75px;
+  color: #FF9800;
+}
+
+#thirdPageText p{
+  font-size: 3.7rem;
+  padding: 35px 45px 80px 45px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #666;
+}
 
 /* 4th Page */
+#FourthPageText p{
+  font-size: 6.5rem;
+  padding: 35px 45px 80px 45px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #666;
+}
+
 
 /* Last Page */
 #lastSectionTitle, #lastSectionAddress, #lastSectionContact{

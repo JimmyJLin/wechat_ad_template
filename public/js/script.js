@@ -43,7 +43,9 @@ $(function(){
     $('#fadeInRightThirdPageRowOne').addClass(fadeInRight);
     $('#fadeInLeftThirdPageRowTwo').addClass(fadeInLeft);
     $('#fadeInRightThirdPageRowTwo').addClass(fadeInRight);
-
+    $('#fadeInLeftThirdPageRowThree').addClass(fadeInLeft);
+    $('#fadeInRightThirdPageRowThree').addClass(fadeInRight);
+    
     // Fourth Page
     $('#fadeInDownFourthPage').addClass(fadeInDown);
     $('#zoomInFourthPage').addClass(zoomIn);
@@ -53,7 +55,7 @@ $(function(){
     $('#fadeInRightFourthPageRowTwo').addClass(fadeInRight);
     $('#fadeInLeftFourthPageRowThree').addClass(fadeInLeft);
     $('#fadeInRightFourthPageRowThree').addClass(fadeInRight);
-    
+
     // Last Page
 
   });
