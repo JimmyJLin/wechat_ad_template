@@ -9,6 +9,13 @@ audio {
   display: none;
 }
 
+#music{
+  cursor: pointer;
+  position: absolute;
+  padding-left: 50px;
+  top: 100px;
+
+}
 .HYPE_scene{
   background-color: transparent !important;
 }

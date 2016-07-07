@@ -12,8 +12,20 @@ $(function(){
     audio.play()
   }
 
-  $('#pageFirstarrowdown').on('click', function(){
-    play()
+  $('#music').on('click', function(){
+    // console.log("hello")
+    // play()
+    // $(this).css("opacity", 0.5);
+    if($('#music').hasClass("play")){
+      play();
+      $(this).removeClass("play").addClass("stop");
+      $(this).css("opacity", 0.5);
+    } else if($('#music').hasClass("stop")){
+      stop();
+      $(this).removeClass("stop").addClass("play");
+      $(this).css("opacity", 1);
+
+    }
   })
 
   // animate.css
@@ -45,7 +57,7 @@ $(function(){
     $('#fadeInRightThirdPageRowTwo').addClass(fadeInRight);
     $('#fadeInLeftThirdPageRowThree').addClass(fadeInLeft);
     $('#fadeInRightThirdPageRowThree').addClass(fadeInRight);
-    
+
     // Fourth Page
     $('#fadeInDownFourthPage').addClass(fadeInDown);
     $('#zoomInFourthPage').addClass(zoomIn);
