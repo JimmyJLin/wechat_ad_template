@@ -51,8 +51,8 @@ audio {
 }
 
 #fadeInDownFirstPage, #lightSpeedInFirstPage, #fadeInUpFirstPage, #zoomInSecondPage, #fadeInLeftSecondPage, #fadeInRightSecondPage, #fadeInDownSecondPageTitle, #pageTitleThirdPage, #zoomInThirdPage, #fadeInLeftThirdPageRowOne, #fadeInRightThirdPageRowOne, #fadeInLeftThirdPageRowTwo, #fadeInRightThirdPageRowTwo, #fadeInLeftThirdPageRowThree, #fadeInRightThirdPageRowThree, #fadeInDownFourthPage, #fadeInLeftFourthPageRowOne, #fadeInRightFourthPageRowOne, #fadeInLeftFourthPageRowTwo, #fadeInRightFourthPageRowTwo,  #fadeInLeftFourthPageRowThree, #fadeInRightFourthPageRowThree, #zoomInFourthPage, #fadeInDownLastPage{
-  animation-duration: 5s;
-  -webkit-animation-duration: 5s;
+  animation-duration: 8s;
+  -webkit-animation-duration: 8s;
 }
 
 #contentText{
