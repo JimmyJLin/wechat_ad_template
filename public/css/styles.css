@@ -32,6 +32,46 @@ audio {
   padding-left: 560px;
 }
 
+/* First Page */
+
+#companyLogo{
+  width: 1000px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#brandImage{
+  width: 750px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#fadeInDown, #rubberBand{
+  animation-duration: 3s;
+}
+
+#contentText{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 100px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #FF9800;
+}
+
+
+/* 2nd Page */
+
+/* 3rd Page */
+
+/* 4th Page */
+
+/* Last Page */
+
 
 /* Responsive */
 /* iPhone 4 & 4S */
