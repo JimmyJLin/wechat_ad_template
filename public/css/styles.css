@@ -50,8 +50,9 @@ audio {
   margin-right: auto;
 }
 
-#fadeInDown, #rubberBand{
+#fadeInDown, #rubberBand, #fadeInUp, #pageTitle, #fadeInLeft, #fadeInRight, #zoomIn{
   animation-duration: 3s;
+  -webkit-animation-duration: 3s;
 }
 
 #contentText{
@@ -65,7 +66,32 @@ audio {
 
 
 /* 2nd Page */
+#pageTitle h2{
+  text-align: center;
+  padding-left: 10%;
+  position: absolute;
+  font-size: 7.7rem;
+  font-family: sans-serif;
+  top: 120px;
+  color: #FF9800;
+  padding-bottom: 55px;
+}
 
+#pageText p{
+  font-size: 3.7rem;
+  padding: 0 45px 110px 45px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #666;
+}
+
+#leftImage{
+  padding-left: 50px;
+}
+
+#rightImage{
+  padding-right: 50px;
+}
 /* 3rd Page */
 
 /* 4th Page */

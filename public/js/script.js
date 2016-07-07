@@ -15,8 +15,14 @@ $(function(){
     play()
   })
 
+  // animate.css
 
-
-
+  // $('#zoomIn').on("pageload", function(){
+  //   console.log("loading zoomin")
+  //   if($(this).hasClass("no")){
+  //     console.log("no class")
+  //   }
+  //     $(this).addClass("animated zoomIn")
+  // });
 
 })
