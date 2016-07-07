@@ -21,7 +21,7 @@ $(function(){
       $(this).removeClass("play").addClass("stop");
       $(this).css("opacity", 0.5);
     } else if($('#music').hasClass("stop")){
-      stop();
+      pause();
       $(this).removeClass("stop").addClass("play");
       $(this).css("opacity", 1);
 
