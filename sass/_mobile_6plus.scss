@@ -1,0 +1,21 @@
+// This is the css for the iPhone 6Plus
+
+
+#pageOnearrowdown, #pageTwoarrowdown, #pageThreearrowdown, #pageFourarrowdown, #pageFivearrowdown {
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+  bottom: 30px;
+}
+
+#arrowdownImage{
+  cursor: pointer;
+  height: 100px;
+  padding-left: 450px;
+}
+
+#arrowupImage {
+  cursor: pointer;
+  height: 140px;
+  padding-left: 450px;
+}

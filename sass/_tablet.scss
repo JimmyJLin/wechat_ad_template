@@ -1,0 +1,65 @@
+// This is the css for the tablet
+
+
+#pageOnearrowdown, #pageTwoarrowdown, #pageThreearrowdown, #pageFourarrowdown, #pageFivearrowdown {
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+  bottom: 30px;
+}
+
+#arrowdownImage{
+  cursor: pointer;
+  height: 65px;
+  padding-left: 450px;
+}
+
+#arrowupImage {
+  cursor: pointer;
+  height: 85px;
+  padding-left: 450px;
+}
+
+#leftImage{
+  height: 200px;
+  width: auto;
+  padding-left: 50px;
+}
+
+#rightImage{
+  height: 200px;
+  width: auto;
+  padding-right: 50px;
+}
+
+/* 2nd Page */
+
+#secondPageTitle h2{
+  text-align: center;
+  padding-left: 21%;
+  position: absolute;
+  font-size: 6.7rem;
+  font-family: sans-serif;
+  top: 80px;
+  color: #FF9800;
+  padding-bottom: 25px;
+}
+
+/* 3rd Page */
+#thirdPageTitle h2{
+  text-align: center;
+  padding-left: 32%;
+  position: absolute;
+  font-size: 5.7rem;
+  font-family: sans-serif;
+  top: 40px;
+  color: #FF9800;
+}
+
+#thirdPageText p{
+  font-size: 2.7rem;
+  padding: 35px 45px 80px 45px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #666;
+}

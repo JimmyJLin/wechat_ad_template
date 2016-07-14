@@ -17,6 +17,8 @@
     "fullpage.js": "^2.8.1",
     "jquery": "^3.0.0",
     "morgan": "^1.7.0",
+    "node-sass": "^3.8.0",
+    "node-sass-middleware": "^0.9.8",
     "path": "^0.12.7",
     "request": "^2.72.0",
     "semantic-ui": "^2.1.8"
