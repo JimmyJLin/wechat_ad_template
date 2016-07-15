@@ -24,10 +24,12 @@ $(function(){
     if($('#music').hasClass("play")){
       play();
       $(this).removeClass("play").addClass("stop");
+      $(this).attr("src", "images/firstPage/music_no.png")
       $(this).css("opacity", 0.5);
     } else if($('#music').hasClass("stop")){
       pause();
       $(this).removeClass("stop").addClass("play");
+      $(this).attr("src", "images/firstPage/music.png")
       $(this).css("opacity", 1);
 
     }
